@@ -24,7 +24,8 @@
 		<java.version>1.8</java.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<drools.version>7.70.0.Final</drools.version>
-		<m2e.apt.activation>jdt_apt</m2e.apt.activation> <!-- this is for Mapstruct to run -->
+		<m2e.apt.activation>jdt_apt</m2e.apt.activation> <!-- this is for
+		Mapstruct to run -->
 	</properties>
 
 	<repositories>
@@ -42,20 +43,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security.oauth</groupId>
-			<artifactId>spring-security-oauth2</artifactId>
-			<version>2.3.3.RELEASE</version>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -190,7 +182,8 @@
 							<version>0.2.0</version>
 						</path>
 					</annotationProcessorPaths>
-					<!-- For default spring beans generation, can use simple @Mapper without 
+					<!-- For default spring beans generation, can use simple
+					@Mapper without 
 						(componentModel = "spring") -->
 					<compilerArgs>
 						<compilerArg>

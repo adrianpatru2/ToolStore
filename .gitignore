@@ -7,8 +7,7 @@ mvnw.*
 /logs/
 .DS_Store
 
-*application-pg.properties
-**/main/resources/jdbc/**
+*github*
 
 ### STS ###
 .apt_generated
@@ -24,14 +23,6 @@ mvnw.*
 *.iws
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 
 *target*
 *.jar
